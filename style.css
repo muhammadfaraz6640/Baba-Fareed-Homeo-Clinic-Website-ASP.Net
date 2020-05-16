@@ -1,0 +1,131 @@
+.header div {
+    display: inline-block;
+    min-height: 20px;
+    width: auto;
+    background-color: #1E90FF;
+    height: auto;
+    /* padding:5px; */
+    align-items: center;
+}
+.links{
+    width: 250px;
+    margin-left: 38%;
+    align-items: center;
+}
+.header {
+    background-color: #1E90FF;
+    padding: 10px;
+    width: auto;
+    height: auto;
+    margin: auto;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+.fab{
+    color:whitesmoke;
+    padding: 10px;
+}
+.fas{
+    color:whitesmoke;
+    padding: 10px;
+}
+@media only screen and (max-width: 1000px){
+.links{
+        margin-left: 33%;
+    }
+}
+.dropdown-submenu {
+    position: relative;
+  }
+  
+.dropdown-submenu>a:after {
+    content: "\f0da";
+    float: right;
+    border: none;
+    font-family: 'FontAwesome';
+  }
+  
+.dropdown-submenu>.dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: 0px;
+    margin-left: 0px;
+  }  
+@media (min-width: 991px) {
+    .dropdown-menu {
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+  }
+
+.Link a{
+    color: white;
+    text-decoration: none; 
+    list-style: none;   
+}
+.Login{        
+    padding:50px;          
+    width: 355px;        
+    height: auto;       
+    margin: auto;          
+}
+.font{
+    color:black;
+}
+.center-foot {
+    background-color: #87CEEB;
+}
+.card-head {
+    background-color: #888888;
+}
+.Log-lab{
+    align-items: center;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.Pic-doc{
+    margin-left: 25%;       
+    margin-right: 20%;
+    
+    
+}
+.pic {
+    border: 2px solid black;
+    box-shadow: 5px 10px #C0C0C0;
+}
+.server {
+    display: flex;
+    flex-flow: row-wrap;
+    white-space: nowrap
+}
+
+    .server .item {
+        border-bottom: 1px solid black;
+        white-space: nowrap
+    }
+
+        .server .item .description {
+            display: block;
+            white-space: nowrap
+        }
+
+.len{
+    width:auto;
+    height:auto;
+}
+.cardss {
+    width: 200px;
+    height: 200px;
+    /* display: flex;
+    justify-content: space-between; */
+    /* box-shadow:5px 10px hotpink; */
+    border: 1px solid red;
+}
+
+.image-card {
+    margin: auto;
+    align-items: center;
+    margin-left: 40%;
+    margin-top: 10%;
+}
