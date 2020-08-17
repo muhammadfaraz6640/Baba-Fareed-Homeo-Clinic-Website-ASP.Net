@@ -24,9 +24,9 @@ namespace HomeoClinic.Models
             clientDetails.EnableSsl = true;
             clientDetails.DeliveryMethod = SmtpDeliveryMethod.Network;
             clientDetails.UseDefaultCredentials = false;
-            clientDetails.Credentials = new NetworkCredential("doctor@babafareedhomeoclinic.com", "Fatcow123");
+            clientDetails.Credentials = new NetworkCredential("whatever.com", "nnksnaksna");
             MailMessage mailDetails = new MailMessage();
-            mailDetails.From = new MailAddress("doctor@babafareedhomeoclinic.com");
+            mailDetails.From = new MailAddress("whatever.com");
             mailDetails.To.Add(e.email);
             mailDetails.Subject = e.Subject;
             mailDetails.Body = e.Body;
